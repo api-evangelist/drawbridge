@@ -1,24 +1,63 @@
 aid: drawbridge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drawbridge.png
 name: Drawbridge
-description: 'Drawbridge is a company surfaced as a portfolio company of kleiner-perkins and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Drawbridge, Inc. was a San Mateo, California cross-device identity and
+  digital advertising company founded in 2011 by Kamakshi Sivaramakrishnan (a former
+  AdMob scientist). It built a people-based identity graph that used machine learning
+  to probabilistically match individuals across their connected devices (desktops,
+  smartphones, tablets, and connected TVs) so brands could serve and measure relevant
+  advertising across devices. Backed by Kleiner Perkins, Sequoia Capital, Northgate
+  Capital, and Mitsui & Co., the company raised roughly $69M across five rounds before
+  it was acquired by LinkedIn in 2019 and folded into LinkedIn Marketing Solutions.
+  Drawbridge no longer operates as an independent company and never published a public
+  developer API or developer portal, so there is no live API surface to enrich; this
+  profile records its identity as a historical Kleiner Perkins portfolio company.'
 url: https://raw.githubusercontent.com/api-evangelist/drawbridge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
+- sequoia-capital
+- northgate-capital
+- mitsui
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: linkedin
+x-acquired-date: '2019'
+x-founded: '2011'
+x-headquarters: San Mateo, California, United States
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Advertising
+- Identity
+- Cross-Device
+- Machine Learning
+- AdTech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
