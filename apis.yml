@@ -81,3 +81,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/linkedin/
+  name: LinkedIn
+  x-relationship: acquired
+  x-evidence: ", the company raised roughly $69M across five rounds before it was acquired by LinkedIn in 2019 and folded into LinkedIn Marketing Solutions."
